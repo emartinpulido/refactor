@@ -18,7 +18,7 @@ public class Circunferencia {
 		double area = 2 * 3.1416 * radio * radio;
 		System.out.println(area);
 	}
-	/**
+	/** 
 	 Comprobación si una circunferencia dada es igual al objeto en cuestión.
 	 * */
 
@@ -37,7 +37,10 @@ public class Circunferencia {
 				return false;
 		}
 	}
-
+	/**
+	 Getter
+	 * */
+	
 	public double getRad() {
 		return radio;
 	}
